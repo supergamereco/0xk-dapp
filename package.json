@@ -1,0 +1,77 @@
+{
+  "name": "0xk-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build_staging": "vue-cli-service build --mode staging",
+    "build_develop": "vue-cli-service build --mode develop",
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "@burner-wallet/burner-connect-provider": "0.1.1",
+    "@chenfengyuan/vue-countdown": "^1.1.5",
+    "@matrix-labs/one-sync-sdk": "1.4.0",
+    "@openzeppelin/contracts": "^4.4.0",
+    "@openzeppelin/contracts-upgradeable": "^4.4.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "@walletconnect/web3-provider": "^1.7.4",
+    "authereum": "0.1.14",
+    "axios": "^0.26.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "ethers": "^5.5.4",
+    "jquery": "^3.6.0",
+    "jsona": "^1.9.7",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "loglevel": "^1.8.0",
+    "mdb-ui-kit": "^3.10.2",
+    "moment": "^2.29.3",
+    "vue": "^2.6.14",
+    "vue-clipboard2": "^0.2.1",
+    "vue-i18n": "^8.27.0",
+    "vue-router": "^3.5.3",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.4.0",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.8",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.46.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-undef": "off",
+      "no-cond-assign": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

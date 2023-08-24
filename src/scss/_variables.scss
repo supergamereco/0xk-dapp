@@ -1,0 +1,75 @@
+$font-color-hilight: #962EFF;
+
+$white: #FFFFFF;
+$purple: #962EFF;
+$green: #54AE90;
+$light-green: #71bb69;
+$dark-grey-1: #525252;
+$dark-grey-2: #1B1B21;
+$dark-grey-3: #2B2B3E;
+$dark-dark: #23262F;
+$blue: #1E87FF;
+
+// start new theme
+$light-grey-1: #E3E3E3;
+$light-grey-2: #9F9F9F;
+$dark-grey: #949494;
+$dark-1: #4A525F;
+$dark-2: #888E97;
+$white-bg: #FAFAFA;
+$yellow: #F7CA38;
+$yellow-1: #FFCA28;
+$yellow-3: #FEFAEB;
+$green: #4BAA01;
+$red: #D73D24;
+$light-1: #F0F1F3;
+$light-2: #C8D3D7;
+$link: #2D7CFC;
+$app-background-color: $white-bg;
+$app-font-color: $dark-1;
+$app-font-hover-color: $yellow;
+$app-theme-color: $yellow;
+$app-theme-color-light: $light-2;
+// end new theme
+
+$button-color-hilight: linear-gradient(94.3deg, #962EFF 4.05%, #3106BB 98.37%);
+// game detail
+$title-section-font-weight: 600;
+$progress-background-color: $dark-grey-1;
+$title-section-font-size: 4.8vh;
+$title-section-margin-bottom: 3rem;
+$title-section-margin-bottom-news: 4rem;
+
+// sizes
+$x-small: 480px;
+$small: 610px;
+$tablet: 820px;
+$medium: 1024px;
+$media-desktop: 1130px;
+$x-medium: 1200px;
+$large: 1440px;
+$x-large: 1920px;
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);

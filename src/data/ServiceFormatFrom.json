@@ -1,0 +1,54 @@
+{
+    "from_selected_province": [
+        { "value": "Bangkok", "text": "Bangkok" },
+        { "value": "Ang Thong", "text": "Ang Thong" },
+        { "value": "Ayutthaya", "text": "Ayutthaya" },
+        { "value": "Chai Nat", "text": "Chai Nat" },
+        { "value": "Kamphaeng Phet", "text": "Kamphaeng Phet" },
+        { "value": "Lop Buri", "text": "Lop Buri" },
+        { "value": "Nakhon Nayok", "text": "Nakhon Nayok" },
+        { "value": "Nakhon Pathom", "text": "Nakhon Pathom" },
+        { "value": "Nakhon Sawan", "text": "Nakhon Sawan" },
+        { "value": "Nonthaburi ", "text": "Nonthaburi" },
+        { "value": "Pathum Thani", "text": "Pathum Thani" },
+        { "value": "Phichit", "text": "Phichit" },
+        { "value": "Phitsanulok", "text": "Phitsanulok" },
+        { "value": "Samut Sakhon", "text": "Samut Sakhon" },
+        { "value": "Samut Songkhram", "text": "Phetchaboon" },
+        { "value": "Saraburi", "text": "Saraburi" }
+      ],
+      "from_selected_district": [
+        { "value": "Donmuang", "text": "Donmuang" },
+        { "value": "Khaokho", "text": "Khaokho" },
+        { "value": "Khlong Toei", "text": "Khlong Toei" },
+        { "value": "Khlong San", "text": "Khlong San" },
+        { "value": "Khan Na Yao", "text": "Khan Na Yao" },
+        { "value": "Khan Na Yao", "text": "Khan Na Yao" },
+        { "value": "Chom Thong", "text": "Chom Thong" },
+        { "value": "Dusit", "text": "Dusit" },
+        { "value": "Taling Chan", "text": "Taling Chan" },
+        { "value": "Thawi Watthana", "text": "Thawi Watthana" },
+        { "value": "Thung Khru", "text": "Thung Khru" },
+        { "value": "Thon Buri", "text": "Thon Buri" }
+      ],
+      "from_selected_post_code": [
+        { "value": "10210", "text": "10210" },
+        { "value": "10110", "text": "10110" },
+        { "value": "10230", "text": "10230" },
+        { "value": "10900", "text": "10900" },
+        { "value": "10150", "text": "10150" },
+        { "value": "10001", "text": "10001" },
+        { "value": "10300", "text": "10300" },
+        { "value": "10303", "text": "10303" },
+        { "value": "10170", "text": "10170" }
+      ],
+      "from_selected_sort_by": [
+        { "values": null, "text": "Recently Listed" },
+        { "values": "1", "text": "This is First option" },
+        { "values": "2", "text": "Selected Option" }
+      ],
+      "from_selected_platform": [
+        { "value": "PS4", "text": "PlayStation 4" },
+        { "value": "PS5", "text": "PlayStation 5" }
+      ]
+}

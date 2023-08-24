@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="version" content="3301">
+    <link rel="icon" href="<%= BASE_URL %>images/ncm-logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Inter:thin,extra-light,light,100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <!-- MDB -->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L3EKRF2SE"></script>
+    <!-- flickity -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- JavaScript -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9L3EKRF2SE');
+
+      function openMediaCarousel(imageSize) {
+        let navMediaOption = {
+          asNavFor: '.carousel-main',
+          contain: true,
+          wrapAround: imageSize > 4,
+          pageDots: false,
+          prevNextButtons: false,
+          lazyLoad: 3,
+          imagesLoaded: true,
+          percentPosition: false
+        }
+
+        $('.carousel-main').flickity({
+          wrapAround: true,
+          contain: true,
+          pageDots: false,
+          lazyLoad: 3 ,
+          imagesLoaded: true,
+          percentPosition: false
+        });
+        // 2nd carousel, navigation
+        $('.carousel-nav').flickity(navMediaOption);
+      }
+
+      function cardSlideCarousel() {
+        let navOption = {
+          asNavFor: '.carousel-main',
+          contain: true,
+          pageDots: false,
+          prevNextButtons: true,
+          fullscreen: false,
+          lazyLoad: 10
+        }
+
+        $('.carousel-main').flickity({
+          contain: true,
+          pageDots: false,
+          prevNextButtons: false,
+          fullscreen: true,
+          lazyLoad: 2
+        });
+        $('.carousel-nav').flickity(navOption);
+
+        const previousBtn = document.querySelector('.previous');
+        const nextBtn = document.querySelector('.next');
+
+        if (previousBtn) previousBtn.classList.add('sub-slide');
+        if (nextBtn) nextBtn.classList.add('sub-slide');
+      }
+
+      function cardSlideKeyFeature() {
+        let navFeatureOption = {
+          asNavFor: '.carousal__key_feature',
+          groupCells: true,
+          prevNextButtons: true,
+          lazyLoad: 4,
+          imagesLoaded: true
+        }
+        $('.carousal__key_feature').flickity(navFeatureOption);
+      }
+
+      function cardSlideRelateProduct() {
+        let navRelateProduct = {
+          asNavFor: '.carousel__related_product',
+          groupCells: true,
+          prevNextButtons: true,
+          lazyLoad: 4,
+          imagesLoaded: true
+        }
+        $('.carousel__related_product').flickity(navRelateProduct);
+      }
+
+      function cardSlidePreOrder() {
+        let navPreOrderList = {
+          asNavFor: '.carousal__pre_order',
+          groupCells: true,
+          prevNextButtons: true,
+          lazyLoad: 4,
+          imagesLoaded: true
+        }
+
+        $('.carousal__pre_order').flickity(navPreOrderList);
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

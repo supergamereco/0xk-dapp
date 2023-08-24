@@ -1,0 +1,133 @@
+{
+    "thumbnail_image": [
+        "img_slide0.jpeg",
+        "img_slide1.jpeg",
+        "img_slide2.jpeg",
+        "img_slide3.jpeg",
+        "img_slide4.jpeg",
+        "img_slide5.jpeg",
+        "img_slide6.jpeg",
+        "img_slide7.jpeg",
+        "img_slide8.jpeg",
+        "img_slide9.jpeg"
+    ],
+    "card_presale": {
+        "productId": "486edda78f0d3d779199cd7a76889f5d",
+        "productPriceId": "97fc6222bfc535f790a5dca60dd02b29",
+        "price": 0.0067,
+        "salePrice": 0.005,
+        "currency": "USDC",
+        "mainTitle": "Year Of The Rat Edition",
+        "subTitle": "Limited Chinese Zodiac Series",
+        "discount": 25,
+        "startData": 1651059667,
+        "closeData": 1672505999
+    },
+    "overview": {
+        "limited_edition": "LIMITED EDITION",
+        "title": "Uniqueness and more collecting value",
+        "info": "Ducky celebrates this year’s Chinese zodiac animal with a special design. Only 2020 pieces in existence, thus extremely rare.",
+        "img": "img_limited.png"
+    },
+    "spec": {
+        "product_number": "DKYOTR2020",
+        "structure": "Mechanical structure",
+        "trigger_switch": "Cherry MX mechanical switches",
+        "led": "RGB",
+        "connection_interface": "USB 2.0",
+        "keycap_material": "PBT",
+        "output_key_number": "USB N-Key Rollover",
+        "printing_technology": "Dye-Sublimation",
+        "dimensions": "305 x 105 x 38 mm",
+        "weight": "593g",
+        "origin_of_production": "Taiwan",
+        "contact_address": "0x25534288752Ca9660B94b12d797AB9f8DB041D2B",
+        "token_id": "768229893",
+        "token_standard": "ERC-721",
+        "blockchain": "OKC (OKT)"
+      },
+      "download": {
+        "doc_name": "DKYOTR2020",
+        "path": ""
+      },
+      "feature_list": [
+        {
+          "title": "Dye-sublimation techniques graffiti elements",
+          "article": "This allows him to hide and wittily contrasts the color around the mist. Above the mist, there are some familiar traffic symbols, aiding “Bounce Mouse” for his sense of direction when he travels and paints during the night.sion mobile",
+          "image": "key_feature_1"
+        },
+        {
+          "title": "Hot-swap",
+          "article": "The Year of the Rat keyboard is based on the newest version of Ducky's hot-swap keyboard. Hot swapping is the replacement or addition of components to a computer system without stopping, shutting down, or rebooting the system.",
+          "image": "key_feature_2"
+        },
+        {
+          "title": "3 level angle adjustment keyboard stand",
+          "article": "Two-step keyboard feet allow you to set your keyboard at three different tilt angles.",
+          "image": "key_feature_3"
+        },
+        {
+          "title": "Dye-sublimation techniques graffiti elements",
+          "article": "This allows him to hide and wittily contrasts the color around the mist. Above the mist, there are some familiar traffic symbols, aiding “Bounce Mouse” for his sense of direction when he travels and paints during the night.sion mobile",
+          "image": "key_feature_1"
+        }
+      ],
+      "product_list": [
+          {
+            "image": "related_product_1.png",
+            "title": "One 3 MINI",
+            "article": "Brand new 'QUACK Mechanics' design philosophy in Classic Black.",
+            "currency": "USDC",
+            "price": "0.0618"
+          },
+          {
+            "image": "related_product_2.png",
+            "title": "One 3 Yellow",
+            "article": "Ducky’s brand new QUACK Mechanics design philosophy to further elevate.",
+            "currency": "USDC",
+            "price": "0.0620"
+          },
+          {
+            "image": "related_product_3.png",
+            "title": "One 3 DayBreak",
+            "article": "Ducky’s brand new QUACK Mechanics design philosophy to further elevate.",
+            "currency": "USDC",
+            "price": "0.0620"
+          },
+          {
+            "image": "related_product_4.png",
+            "title": "One 3 Fuji",
+            "article": "Brand new 'QUACK Mechanics' design philosophy in Classic Black.",
+            "currency": "USDC",
+            "price": "0.0620"
+          },
+          {
+            "image": "related_product_1.png",
+            "title": "One 3 MINI",
+            "article": "Brand new 'QUACK Mechanics' design philosophy in Classic Black.",
+            "currency": "USDC",
+            "price": "0.0618"
+          },
+          {
+            "image": "related_product_2.png",
+            "title": "One 3 Yellow",
+            "article": "Ducky’s brand new QUACK Mechanics design philosophy to further elevate.",
+            "currency": "USDC",
+            "price": "0.0620"
+          },
+          {
+            "image": "related_product_3.png",
+            "title": "One 3 DayBreak",
+            "article": "Ducky’s brand new QUACK Mechanics design philosophy to further elevate.",
+            "currency": "USDC",
+            "price": "0.0620"
+          },
+          {
+            "image": "related_product_4.png",
+            "title": "One 3 Fuji",
+            "article": "Brand new 'QUACK Mechanics' design philosophy in Classic Black.",
+            "currency": "USDC",
+            "price": "0.0620"
+          }
+      ]
+}

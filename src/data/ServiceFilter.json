@@ -1,0 +1,149 @@
+{
+  "category_list": [
+    {
+      "name": "All",
+      "image": "-",
+      "checked": true
+    },
+    {
+      "name": "Keyboards",
+      "image": "keyboard.png",
+      "checked": false
+    },
+    {
+      "name": "Keycaps",
+      "image": "keycap.png",
+      "checked": false
+    },
+    {
+      "name": "Mice",
+      "image": "mice.png",
+      "checked": false
+    },
+    {
+      "name": "Peripherals",
+      "image": "peripheral.png",
+      "checked": false
+    }
+  ],
+  "status_list": [
+    {
+      "name": "All",
+      "checked": true
+    },
+    {
+      "name": "Buy Now",
+      "checked": false
+    },
+    {
+      "name": "Preorder",
+      "checked": false
+    }
+  ],
+  "sort_by_list": [
+    {
+      "name": "Recently Listed",
+      "checked": true
+    },
+    {
+      "name": "Oldest",
+      "checked": false
+    },
+    {
+      "name": "Price: High to Low",
+      "checked": false
+    },
+    {
+      "name": "Price: Low to High",
+      "checked": false
+    }
+  ],
+  "wishlist_sort_by_list": [
+    {
+      "name": "Recently Listed",
+      "checked": true
+    },
+    {
+      "name": "Price (Low to High)",
+      "checked": false
+    },
+    {
+      "name": "Price (High to Low)",
+      "checked": false
+    },
+    {
+      "name": "Name (A - Z)",
+      "checked": false
+    },
+    {
+      "name": "Name (Z - A)",
+      "checked": false
+    },
+    {
+      "name": "Claimable",
+      "checked": false
+    }
+  ],
+  "activity_sort_by_list": [
+    {
+      "name": "Recently Listed",
+      "checked": true
+    },
+    {
+      "name": "Price (Low to High)",
+      "checked": false
+    },
+    {
+      "name": "Price (High to Low)",
+      "checked": false
+    },
+    {
+      "name": "Claimable",
+      "checked": false
+    }
+  ],
+  "redeemable_sort_by_list": [
+    {
+      "name": "Recently Listed",
+      "checked": true
+    },
+    {
+      "name": "Price (Low to High)",
+      "checked": false
+    },
+    {
+      "name": "Price (High to Low)",
+      "checked": false
+    },
+    {
+      "name": "Name (A - Z)",
+      "checked": false
+    },
+    {
+      "name": "Name (Z - A)",
+      "checked": false
+    },
+    {
+      "name": "Claimable",
+      "checked": false
+    }
+  ],
+  "redeem_history_sort_by_list": [
+    {
+      "name": "Recently Listed",
+      "checked": true
+    },
+    {
+      "name": "Name (A - Z)",
+      "checked": false
+    },
+    {
+      "name": "Name (Z - A)",
+      "checked": false
+    },
+    {
+      "name": "Claimable",
+      "checked": false
+    }
+  ]
+}

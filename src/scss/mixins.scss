@@ -1,0 +1,124 @@
+@import '_variables';
+
+@mixin field-border($color-focused, $color-unfocused, $focused-selector:'') {
+  border-radius: 0.4rem;
+  -webkit-transition-property: box-shadow;
+  -moz-transition-property: box-shadow;
+  -ms-transition-property: box-shadow;
+  -o-transition-property: box-shadow;
+  transition-property: box-shadow;
+  transition-duration: $col-select-field-transition-duration;
+  background-clip: padding-box;
+
+  &:focus, &:hover, &--active {
+    box-shadow: inset 0 0 0 0.2rem $_orange;
+  }
+
+  @if $focused-selector != '' {
+    #{$focused-selector},
+    &:focus {
+      background-size: 100% 0.2rem;
+    }
+  }
+}
+
+@mixin readonly-border($color) {
+  border: 0.1rem solid rgba($color, 0.1);
+  border-radius: 0.4rem;
+  background: none;
+  box-shadow: none;
+
+  &:hover { box-shadow: none; }
+}
+
+@mixin text-font-sizes {
+  font-size: $col-select-field-text-font-size;
+  line-height: $col-select-field-text-line-height;
+}
+
+@mixin box-shadow () {
+  box-shadow: 0 0 0.01rem rgba(0, 0, 0, 0.103997),
+              0 0.04rem 1.6rem rgba(0, 0, 0, 0.0559047),
+              0 0.02rem 0.04rem rgba(0, 0, 0, 0.052055);
+}
+
+@mixin label-font-sizes {
+  font-size: $col-select-field-label-font-size;
+  line-height: $col-select-field-label-line-height;
+}
+
+@mixin material-border($color-focused, $color-unfocused, $focused-selector:'') {
+  border: 0.1rem solid $color-unfocused;
+  background: radial-gradient($color-focused, $color-focused) bottom -0.1rem center no-repeat;
+  background-size: 0 0.2rem;
+  -webkit-transition-property: background-size, border-color;
+  -moz-transition-property: background-size, border-color;
+  -ms-transition-property: background-size, border-color;
+  -o-transition-property: background-size, border-color;
+  transition-property: background-size, border-color;
+  transition-duration: $col-select-field-transition-duration;
+
+  @if $focused-selector != '' {
+    #{$focused-selector},
+    &:focus {
+      background-size: 100% 0.2rem;
+    }
+  }
+
+  @else {
+    &:focus {
+      background-size: 100% 0.2rem;
+    }
+  }
+}
+
+@mixin respond-to($media) {
+  @if $media == xsmall {
+    @media only screen and (max-width: $x-small - 1px) {
+      @content;
+
+    }
+  }
+
+  @else if $media == small {
+    @media only screen and (max-width: $small - 1px) {
+      @content;
+    }
+  }
+  @else if $media == tablet {
+    @media only screen and (max-width: $tablet - 1px) {
+      @content;
+    }
+  }
+  @else if $media == medium {
+    @media only screen and (max-width: $medium) {
+      @content;
+    }
+  }
+  @else if $media == xmedium {
+    @media only screen and (max-width: $x-medium - 1px) {
+      @content;
+    }
+  }
+  @else if $media == large {
+    @media only screen and (max-width: $large - 1px) {
+      @content;
+    }
+  }
+  @else if $media == xlarge {
+    @media only screen and (max-width: $x-large - 1px) {
+      @content;
+    }
+  }
+  @else {
+    @media only screen and (max-width: $media) {
+      @content;
+    }
+  }
+}
+
+@mixin placeholder {
+  -webkit-text-fill-color: $field-placeholder-color;
+  color: $field-placeholder-color;
+}
+

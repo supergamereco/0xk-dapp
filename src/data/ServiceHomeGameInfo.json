@@ -1,0 +1,229 @@
+{
+    "img_logo": [
+        "PS4-Logo-2.png",
+        "ps5-logo-2.png"
+    ],
+    "img_game": "image_71.png",
+
+    "slide_image": [
+        "https://i3.ytimg.com/vi/XJen7Lz7K9U/maxresdefault.jpg",
+        "https://i3.ytimg.com/vi/XJen7Lz7K9U/maxresdefault.jpg"
+    ],
+    "video_image":[
+        "https://i3.ytimg.com/vi/MdUtjjvGUD4/maxresdefault.jpg"
+
+    ],
+    "video_game":[
+        "https://www.youtube.com/embed/MdUtjjvGUD4?rel=0&&autoplay=0&showinfo=0"
+    ],
+    "preorder": [
+        {
+            "productId": "486edda78f0d3d779199cd7a76889f5d",
+            "productPriceId": "97fc6222bfc535f790a5dca60dd02b29",
+            "header": "PRESALE 1",
+            "subHeader": "TBA",
+            "image": "presale_keyboard",
+            "title": "Year Of The Rat Edition",
+            "price": 0.005,
+            "currency": "USDC",
+            "discount": "-25%",
+            "preorder": true,
+            "currentUnit": 100,
+            "totalUnit": 200,
+            "startData": 1651059667,
+            "closeData": 1672505999
+        },
+        {
+            "productId": "486edda78f0d3d779199cd7a76889f5d",
+            "productPriceId": "1fb1cc24dcc8395a8b092c25feaec5a2",
+            "header": "PRESALE 2",
+            "subHeader": "TBA",
+            "image": "presale_keyboard",
+            "title": "Year Of The Rat Edition",
+            "price": 0.0818,
+            "currency": "USDC",
+            "discount": "-20%",
+            "preorder": true,
+            "currentUnit": 0,
+            "totalUnit": 200,
+            "startData": 1672534800,
+            "closeData": 1680224400
+        },
+        {
+            "productId": "486edda78f0d3d779199cd7a76889f5d",
+            "productPriceId": "a0b7cab364243eb9a8b0f7699ae2816a",
+            "header": "PRESALE 3",
+            "subHeader": "TBA",
+            "image": "presale_keyboard",
+            "title": "Year Of The Rat Edition",
+            "price": 0.0918,
+            "currency": "USDC",
+            "discount": "-15%",
+            "preorder": true,
+            "currentUnit": 0,
+            "totalUnit": 200,
+            "startData": 1680310800,
+            "closeData": 1682902800
+        },
+        {
+            "productId": "486edda78f0d3d779199cd7a76889f5d",
+            "productPriceId": "b569abeb9f6435eab7b343afb00d9322",
+            "header": "PRESALE 4",
+            "subHeader": "TBA",
+            "image": "presale_keyboard",
+            "title": "Year Of The Rat Edition",
+            "price": 0.1018,
+            "currency": "USDC",
+            "discount": "-10%",
+            "preorder": true,
+            "currentUnit": 0,
+            "totalUnit": 200,
+            "startData": 1682902800,
+            "closeData": 1685494800
+        },
+        {
+            "productId": "486edda78f0d3d779199cd7a76889f5d",
+            "productPriceId": "047421712ca03c45b20871e3005c7025",
+            "header": "PRESALE 5",
+            "subHeader": "TBA",
+            "image": "presale_keyboard",
+            "title": "Year Of The Rat Edition",
+            "price": 0.1218,
+            "currency": "USDC",
+            "discount": "-8%",
+            "preorder": true,
+            "currentUnit": 0,
+            "totalUnit": 200,
+            "startData": 1685581200,
+            "closeData": 1688086800
+        },
+        {
+            "productId": "486edda78f0d3d779199cd7a76889f5d",
+            "productPriceId": "ec5596e40f453aad925058cce32bb016",
+            "header": "PRESALE 6",
+            "subHeader": "TBA",
+            "image": "presale_keyboard",
+            "title": "Year Of The Rat Edition",
+            "price": 0.1418,
+            "currency": "USDC",
+            "discount": "-5%",
+            "preorder": true,
+            "currentUnit": 0,
+            "totalUnit": 200,
+            "startData": 1688173200,
+            "closeData": 1690678800
+        }
+    ],
+    "preorder_old": {
+        "1": [
+            {
+                "productId": 1,
+                "productPriceId": 1,
+                "header": "PRESALE 1",
+                "subHeader": "TBA",
+                "image": "presale_keyboard",
+                "title": "Year Of The Rat Edition",
+                "price": 0.0618,
+                "currency": "BUSD",
+                "discount": "-25%",
+                "preorder": true,
+                "currentUnit": 100,
+                "totalUnit": 200,
+                "startData": 1651059667,
+                "closeData": 1672505999
+            },
+            {
+                "productId": 1,
+                "productPriceId": 2,
+                "header": "PRESALE 2",
+                "subHeader": "TBA",
+                "image": "presale_keyboard",
+                "title": "Year Of The Rat Edition",
+                "price": 0.0818,
+                "currency": "BUSD",
+                "discount": "-20%",
+                "preorder": true,
+                "currentUnit": 0,
+                "totalUnit": 200,
+                "startData": 1651059667,
+                "closeData": 0
+            },
+            {
+                "productId": 1,
+                "productPriceId": 3,
+                "header": "PRESALE 3",
+                "subHeader": "TBA",
+                "image": "presale_keyboard",
+                "title": "Year Of The Rat Edition",
+                "price": 0.0918,
+                "currency": "BUSD",
+                "discount": "-15%",
+                "preorder": true,
+                "currentUnit": 0,
+                "totalUnit": 200,
+                "startData": 1651059667,
+                "closeData": 0
+            }
+        ],
+        "2":
+        [
+            {
+                "productId": 1,
+                "productPriceId": 4,
+                "header": "PRESALE 4",
+                "subHeader": "TBA",
+                "image": "presale_keyboard",
+                "title": "Year Of The Rat Edition",
+                "price": 0.1018,
+                "currency": "BUSD",
+                "discount": "-10%",
+                "preorder": true,
+                "currentUnit": 0,
+                "totalUnit": 200,
+                "startData": 1677689999,
+                "closeData": 1680281999
+            },
+            {
+                "productId": 1,
+                "productPriceId": 5,
+                "header": "PRESALE 5",
+                "subHeader": "TBA",
+                "image": "presale_keyboard",
+                "title": "Year Of The Rat Edition",
+                "price": 0.1218,
+                "currency": "BUSD",
+                "discount": "-8%",
+                "preorder": true,
+                "currentUnit": 0,
+                "totalUnit": 200,
+                "startData": 1680368399,
+                "closeData": 1682873999
+            },
+            {
+                "productId": 1,
+                "productPriceId": 6,
+                "header": "PRESALE 6",
+                "subHeader": "TBA",
+                "image": "presale_keyboard",
+                "title": "Year Of The Rat Edition",
+                "price": 0.1418,
+                "currency": "BUSD",
+                "discount": "-5%",
+                "preorder": true,
+                "currentUnit": 0,
+                "totalUnit": 200,
+                "startData": 1682960399,
+                "closeData": 1685552399
+            }
+        ]
+    },
+    "card_default_presale": {
+        "currentUnit": 0,
+        "totalUnit": 200,
+        "progressUnit": 0,
+        "subTitle": "THE NEW FANTASY ACTION RPG.",
+        "discount": 25,
+        "startData": "25/02/22",
+        "closeData": "30d 12 : 10 : 01"
+    }
+}

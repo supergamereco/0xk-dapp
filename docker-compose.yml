@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  oxk_dapp_client:
+    build:
+      context:    .
+      dockerfile: ./dockers/develop/Dockerfile
+    container_name: oxk_dapp_client
+    ports:
+      - "18006:80"

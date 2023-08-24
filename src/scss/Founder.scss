@@ -1,0 +1,56 @@
+@import "_variables";
+
+
+.image-founder {
+    display: flex;
+    justify-content: center;
+}
+
+.img-founder {
+    width: 100.53px !important;
+    height: 100.51px;
+    border-radius: 50%;
+}
+
+.founder-content {
+    text-align: center;
+}
+
+p.title-content {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: $yellow  ;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p.detail-content {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: $light-grey-2;
+}
+
+.circle-founder {
+    width: 101px;
+    height: 101px;
+    background-color: $dark-grey-1;
+    border-radius: 50%;
+    margin: auto;
+}
+
+span.text-member {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: $light-grey-1;
+    display: block;
+    padding: 1.75rem 0.5rem;
+}

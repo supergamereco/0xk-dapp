@@ -1,0 +1,751 @@
+{
+  "errors": {
+    "default": "Something bad happened. Please try again later or contact the system owner.",
+    "metamask-cannot-connect": "Connection error. Please, install Metamask or check the network.",
+    "balance-error": "Error when get balance.",
+    "processing-error": "Error! Metamask is not processing.",
+    "getting-data-error": "Error! Some problems when getting data from Metamask."
+  },
+  "common": {
+    "save-btn": "Save",
+    "send-btn": "Send",
+    "preorder-btn": "Preorder Now",
+    "buy-btn": "Buy Now",
+    "wishlist-btn": "Add to Wishlist",
+    "roadmap": "Roadmap",
+    "games": "Elden Ring",
+    "products": "Ducky Keyboard"
+  },
+  "from": {
+    "full-name": "Full Name*",
+    "company-name": "Company Name",
+    "email": "Email*",
+    "message": "Message*"
+  },
+  "validation": {
+    "field-error_empty": "You can't leave this empty.",
+    "field-error_email-format": "Entered value does not match email format.",
+    "field-error_characterUsername": "Please enter this fill no more than 20 characters."
+  },
+  "card-presale": {
+    "discount-lbl": "-{discount}% Preorder",
+    "open-pre-date-lbl": "Release date {openData}",
+    "quantity-lbl": "Quantity",
+    "price-lbl": "Price",
+    "prp-lbl": " ",
+    "btn-pre-lbl": "Preorder Now",
+    "btn-buy-lbl": "Buy Now",
+    "btn-wishlist-lbl": "Add to Wishlist",
+    "total-lbl": "Total sales",
+    "closes-lbl": "Closes in",
+    "current-total-unit-lbl": "{current} / {total} Units"
+  },
+  "card-default-presale": {
+    "starting-lbl": "Starting in",
+    "ending-lbl": "Ending in",
+    "total-lbl": "Total sales",
+    "price-lbl": "Price",
+    "current-total-unit-lbl": "{current} / {total} Units",
+    "btn-pre-lbl": "Preorder Now",
+    "btn-coming-soon-lbl": "Coming Soon",
+    "btn-wishlist-lbl": "Add to Wishlist"
+  },
+  "datatable-selection": {
+    "check-box-selection-all": "Select All",
+    "total-time-redeem": "Total {minutes} item(s) :",
+    "token-id": "Token ID",
+    "status": "Status",
+    "order-id": "Order ID"
+  },
+  "card-profile": {
+    "pre-order": "Preorder",
+    "price": "Price",
+    "platform": "Platform",
+    "claimable-in": "Claimable in",
+    "redeemable-in": "Redeemable in",
+    "claimable-btn": "Claim NFT",
+    "redeemable-btn": "Redeem"
+  },
+  "profile-list-claim": {
+    "my-collection": "My Collection",
+    "product-name": "Ducky Keyboard",
+    "claimable-list-all": "All Claimable List"
+  },
+  "redeem-list": {
+    "redeemable": "Redeemable",
+    "redeemable-list-all": "All Redeemable List"
+  },
+  "modal-checkout": {
+    "title-approve": "Grant permission to access your wallet",
+    "title-mint": "Mint",
+    "accept-terms": "At the point of redemption, you will be required to make a 1-time payment for VAT and cost of shipping.",
+    "detail-process": "Send transaction with your wallet",
+    "inprogress": "In progress…",
+    "success-title": "Purchase Success",
+    "purchase-success": "You successfuly purchased",
+    "status": "Status",
+    "transaction-hash": "Order ID",
+    "share": "Share",
+    "purchase-falied": "Purchase failed",
+    "checkout-again": "Checkout Again",
+    "checkout-title": "Checkout",
+    "checkout-btn": "Checkout",
+    "checkout-redeem": "See Minted NFT",
+    "checkout-close-try": "Close and Try Again",
+    "select-platform": "Please Select Your Platform!",
+    "login-metamask": "Please log in to your Metamask!"
+  },
+  "tooltip": {
+    "collector-edition": "Free upgrade to Collector's Edition to the lucky winner. Choose your preferred platform to receive if you are the winner.",
+    "token-id": "You can copy the Token ID of the NFT and enter it into the N Commerce Authenticator for verification of NFT authenticity easily.",
+    "info-card": "Hurry and claim your NFT! Limited numbers of NFT holders will get a free upgrade to Collector's Edition upon redemption."
+  },
+  "nav-bar": {
+    "resources": "Resources",
+    "quick-start": "Quick Start",
+    "help-center": "Help Center",
+    "partner": "Partners",
+    "roadmap": "Roadmap",
+    "authenticator": "Authenticator",
+    "news": "News",
+    "eng": "English",
+    "thai": "ไทย",
+    "menu-profile": {
+      "profile": "Profile",
+      "wishlist": "Wishlist",
+      "my-collections": "My Collections",
+      "redeem": "Redeem",
+      "setting": "Settings"
+    },
+    "btn": "Connect Wallet"
+  },
+  "footer": {
+    "form-title": "Get the latest N-Commerce updates",
+    "btn-submit": "Sign up",
+    "join-us": "Join the community",
+    "text-detail": "N-Commerce is the concept of decentralizing the retail distribution network to leverage the benefits of blockchain technology to ensure fair trade between distributors and end consumers.",
+    "my-account": "My Account",
+    "resources": "Resources",
+    "authenticator": "Authenticator",
+    "newsletter": "News",
+    "company": "Company",
+    "about-us": "About us",
+    "contact-us": "Contact us",
+    "ref": "© N-Commerce, Inc. All rights reserved.",
+    "policy": "Privacy Policy",
+    "term": "Terms of Service",
+    "your-e-mail": "Your e-mail"
+  },
+  "authen": {
+    "title-lbl-1": "N-Commerce NFT",
+    "title-lbl-2": "Authenticator",
+    "sub-title-lbl": "0% Scam Possible. Always use this authenticator when buying any N-Commerce NFT on the open market. This ensures that there is no chance of being scammed.",
+    "btn-verify-nft-lbl": "Verify NFT",
+    "verified-status-lbl": "Here are the Authentication results",
+    "incorrect-token-id-status-lbl": "Incorrect Contract Address or Token ID",
+    "token-id-lbl": "Token ID",
+    "nft-lbl": "NFT",
+    "redemption-lbl": "Redemption Status",
+    "wallet-address-lbl": "(If the wallet address selling you an NFT with the Token ID you entered is not the same wallet address as the above, it is probable that the NFT you are buying is a counterfeit NFT. Please exercise extreme caution.)",
+    "redeemed-lbl": "Redeemed",
+    "available-lbl": "Available",
+    "owner-wallet-address": "Current Owner’s Wallet Address"
+  },
+  "modals": {
+    "wallet-connect": {
+      "wallet-title": "Connect Wallet",
+      "wallet-title-disconnect": "Your Wallet",
+      "wallet-address": "Wallet Address",
+      "wallet-disconnect": "Disconnect Wallet",
+      "wallet-how-to-connect": "Learn How to Connect",
+      "wallet-have-not-wallet": "Haven’t got a crypto wallet yet?"
+    },
+    "profile-claim": {
+      "title": "Do you want to Redeem?",
+      "btn": "Yes, Redeem Now"
+    },
+    "claim-nft": {
+      "title-modal": "Claim NFT",
+      "title": "Send transaction with your wallet",
+      "btn": "In Progress…"
+    },
+    "claim-success": {
+      "title": "You can redeem",
+      "btn": "Check Your NFT"
+    },
+    "claim-fail": {
+      "title-modal": "Claim Failed",
+      "title": "Some error occurred",
+      "btn": "Claim Again"
+    },
+    "redeem-detail": {
+      "title-approve": "Grant permission to access your wallet",
+      "title-burn": "Burn",
+      "title": "Delivery Address",
+      "validate-empty": "You can't leave this empty",
+      "validate-phone": "Need to follow the format: xxx-xxxxxxx",
+      "validate-select-option": " Please select from the list",
+      "validate-email": "Invalid format",
+      "notification-email": "Save Your Address",
+      "summary": "Redemption Summary",
+      "transaction-confirmation": "Transaction Confirmation",
+      "game": "Elder Ring",
+      "detail-game": " DuckyChannel International",
+      "type": "Quantity",
+      "amount": "x {amount}",
+      "software-format": "Software Format",
+      "collection-edition": "Choose Collector’s Edition",
+      "ps4": "PS4",
+      "ps5": "PS5",
+      "redeem": "Redeem",
+      "collector-edition": "Collector’s Edition",
+      "shipping-payment": "Shipping Payment",
+      "shipping-fee": "Shipping fee",
+      "vat": "VAT {percent}%",
+      "total-payment": "Total Payment",
+      "confirm": "Confirm",
+      "icon-text": "Once redeemed, the NFT will be burnt from the supply.",
+      "title-modal": "Redemption Details",
+      "ok-btn": "OK",
+      "inprogress": "In progress…",
+      "btn-view-detail": "View Details",
+      "btn-close-try": "Close and Try Again"
+    },
+    "redeem-confirm-shipping": {
+      "title": "Confirm Shipping",
+      "shipping-type": "Physical"
+    },
+    "redeem-success": {
+      "modal-title": "Redeem Success",
+      "title": "Congratulations!",
+      "detail-title": "Your Standard Edition of Elden Ring just got upgraded to a Collector's Edition!",
+      "order-no": "Token ID. {order}",
+      "collector": "Collector's",
+      "amount-collect": "x {amount}",
+      "view-detail": "View Detail"
+    },
+    "physical-key": {
+      "copy-key": "Copy Key",
+      "guide": "How to use Game Key?"
+    },
+    "redeem-fail": {
+      "title": "Confirm Shipping Failed",
+      "confirm-shipping-fail": "Confirm Shipping Failed",
+      "redeem-again": "Confirm Again"
+    }
+  },
+  "home": {
+    "btn-pre-lbl": "Preorder Now",
+    "btn-wishlist-lbl": "Add to Wishlist",
+    "title-limited-lbl": "Limited edition",
+    "section-get_start": {
+      "title-lbl": "GET STARTED",
+      "sub-title-lbl": "What is N-Commerce",
+      "info-1-lbl": "N-Commerce is the concept of decentralizing the retail distribution network to leverage the benefits of blockchain technology to ensure fair trade between distributors and end consumers.",
+      "info-2-lbl": "This concept merges the traditional concept of primary and secondary trading of real world physical goods."
+    },
+    "section-feature": {
+      "title-lbl": "FEATURES",
+      "sub-title-lbl": "Buy and Redeem",
+      "info-1-hilight-lbl": "Buy",
+      "info-1-lbl": " (Mint) your favorite product as an NFT",
+      "info-2-hilight-lbl": "Claim NFT",
+      "info-2-lbl": " your product as an NFT that enables unique benefits such as a chance for a free gift.",
+      "info-3-hilight-lbl": "Redeem",
+      "info-3-lbl": " your NFT for the physical product to be shipped to your home. After the redemption, the NFT will be burnt from the supply."
+    },
+    "section-privileges": {
+      "title-lbl": "PRIVILEGES",
+      "sub-title-lbl": "0% Scam Possible, Lucky Draw",
+      "info-1-hilight-lbl": "0% Scam Possible",
+      "info-1-lbl": " Check by yourself if the NFT is valid by copying and pasting the NFT Token ID into N-Commerce Authenticator.",
+      "info-3-hilight-lbl": "Lucky Draw",
+      "info-3-lbl": "Have a chance to win a free gift depending on the Presale phases."
+    },
+    "section-roadmap": {
+      "info-lbl": "How we created the N-Commerce"
+    },
+    "section-founder": {
+      "title-lbl": "TEAM MEMBER",
+      "info-lbl": "The team behind N-Commerce"
+    },
+    "section-releseNews": {
+      "title-lbl": "Related Products"
+    },
+    "section-partner": {
+      "title-lbl": "Partners"
+    },
+    "section-process-info": {
+      "title-lbl": "Buy, Claim NFTs and Redeem",
+      "buy-title": "Buy ",
+      "buy-detail": "(Preorder) your favorite game using the preorder model.",
+      "claim-title": "Claim NFTs ",
+      "claim-detail": "your game as an NFT that enables unique benefits such as a chance for the free upgrade to Collector's Edition and NC NFT.",
+      "claim-detail-note": "*User can use NC NFT for a special discount on the later product",
+      "claim-detail-note2": "(T&C apply)",
+      "redeem-title": "Redeem ",
+      "redeem-detail": "your NFT for the game key (digital version) or get the game shipped to your home (physical box) After the redemption, the NFT will be burned from the supply."
+    },
+    "section-popular-category": {
+      "title-lbl": "Popular categories"
+    },
+    "section-marketplace": {
+      "title-lbl": "NFT Marketplace"
+    }
+  },
+  "filter": {
+    "view-all-btn": "View All",
+    "filter-lbl": "Filter",
+    "category-lbl": "Category",
+    "status-lbl": "Status",
+    "sort-by-lbl": "Sort By"
+  },
+  "game-detail": {
+    "tab": {
+      "overview": "OVERVIEW",
+      "specifications": "SPECIFICATIONS",
+      "download": "DOWNLOAD"
+    },
+    "tab-sale-detail": {
+      "product-number": "Product Number",
+      "structure": "Structure",
+      "trigger-switch": "Trigger switch",
+      "led": "LED",
+      "connection-interface": "Connection interface",
+      "keycap-material": "Keycap material",
+      "output-key-number": "Output key number",
+      "printing-technology": "Printing technology",
+      "dimensions": "Dimensions",
+      "weight": "Weight",
+      "origin-of-production": "Origin of production",
+      "contract-address": "Contract Address",
+      "token-id": "Token ID",
+      "token-standard": "Token Standard",
+      "blockchain": "Blockchain",
+      "note": "Note:",
+      "note-1": "Shipping to Thailand Only"
+    },
+    "tab-download": {
+      "user-manual": "Ducky YOTR User Manual"
+    },
+    "key-feature": "KEY FEATURES"
+  },
+  "my-profile-menu": {
+    "my-profile": "My Profile",
+    "redeem": "Redeem",
+    "address-book": "Address Book",
+    "setting": "Settings"
+  },
+  "my-profile": {
+    "title": "My Profile",
+    "my-item": "{amount}",
+    "items": "Items",
+    "tab": {
+      "collection": "My Collection",
+      "wishlish": "My Wishlist",
+      "activity": "My Activity"
+    },
+    "claim-btn": "Claim",
+    "redeem-btn": "Redeem",
+    "filter-by": "filter by",
+    "sort": "sort by",
+    "recently-listed": "Recently Listed",
+    "filter": {
+      "all": "All",
+      "buy": "Buy",
+      "claim": "Claim",
+      "redeem": "Redeem"
+    },
+    "wishlist": {
+      "total-sales": "Total Sales",
+      "price": "Price",
+      "current-total-unit-lbl": "{current} / {total} Units"
+    },
+    "activity": {
+      "buy-status": "Buy",
+      "redeem-status": "Redeem",
+      "claim-status": "Claim",
+      "from": "From",
+      "to": "To",
+      "price": "Price",
+      "date": "Date"
+    }
+  },
+  "redeem": {
+    "title": "Redeem",
+    "tab": {
+      "redeemable": "Redeemable",
+      "history": "History"
+    },
+    "sort": "sort by",
+    "history": {
+      "filter-by": "filter by",
+      "sort": "sort by",
+      "filter-text": "Filter",
+      "filter": {
+        "all": "All",
+        "ship": "To Ship",
+        "recive": "To Receive",
+        "completed": "Completed"
+      },
+      "order-id": "Order ID",
+      "token": "Token ID: {id}",
+      "platform": "Platform",
+      "status": "Status",
+      "date": "Date",
+      "shipping-info": "Shipping Information",
+      "tracking": "Tracking Number |",
+      "logistic": "Logistic",
+      "delivery-address": "Delivery Address",
+      "weeks": "weeks ago",
+      "days": "days ago",
+      "hours": "hours ago",
+      "minutes": "minutes ago"
+    }
+  },
+  "contact": {
+    "title-contact-us": "Contact Us",
+    "title-contact": "Get in touch",
+    "detail": "You can submit your inquiry/suggestion or complaint about our services via the Contact Form.",
+    "email-contact": "Ncommerce@nft1.global",
+    "phone-contact": "897-462-9003",
+    "address-1": "Lake Rowland",
+    "address-2": "5011 Jamaal Oval",
+    "address-3": "Borders"
+  },
+  "profile-address": {
+    "title": "Address Book",
+    "full-name": "Full Name*",
+    "phone-number": "Phone Number*",
+    "email": "Email Address*",
+    "address": "Address*",
+    "district": "District*",
+    "postcode": "Postcode*",
+    "province": "Province*"
+  },
+  "profile-setting": {
+    "title": "Setting",
+    "image": "Profile Image",
+    "username": "Display Name*",
+    "email": "Email",
+    "address-wallet": "Wallet Address"
+  },
+  "help-center": {
+    "title-lbl": "HOW CAN WE HELP YOU ?",
+    "sub-title-lbl": "Search our Help Center or browse FAQs and popular resources.",
+    "header-help-lbl": "Promoted Articles",
+    "card-list": [
+      {
+        "title": "Quick Start",
+        "detail": "Guide for various things in N-Commerce dapp.",
+        "url": "/how-to-quick-start",
+        "txt": ""
+      },
+      {
+        "title": "How To Buy",
+        "detail": "Step by step on how to buy.",
+        "url": "/how-to-buy",
+        "txt": ""
+      },
+      {
+        "title": "What is N-Commerce",
+        "detail": "The better point of using N-Commerce over E-Commerce.",
+        "url": "#",
+        "txt": "Coming Soon"
+      },
+      {
+        "title": "How To Redeem",
+        "detail": "Guide on how to redeem an NFT.",
+        "url": "/how-to-redeem",
+        "txt": "Coming Soon"
+      },
+      {
+        "title": "How to sell the NFT",
+        "detail": "Want to sell your NFT to a secondary market?",
+        "url": "#",
+        "txt": "Coming Soon"
+      },
+      {
+        "title": "FAQ",
+        "detail": "Browse the frequency asked questions.",
+        "url": "#",
+        "txt": "Coming Soon"
+      }
+    ],
+    "promoted-articles-list": [
+      {
+        "title": "What is a wallet, and how to create one?"
+      },
+      {
+        "title": "How to get some OKT"
+      },
+      {
+        "title": "Which blockchains does N-Commerce support?"
+      },
+      {
+        "title": "Can I sell the NFT I bought from N-Commerce?"
+      },
+      {
+        "title": "What are the benefits of buying from N-Commerce?"
+      },
+      {
+        "title": "How can I win a free gift?"
+      },
+      {
+        "title": "What is the Presale Tier?"
+      },
+      {
+        "title": "How does the product be sent to my house? Who pays for the shipping fee?"
+      }
+    ]
+  },
+  "about": {
+    "banner": {
+      "title": "N-Commerce is the \n concept of decentralization.",
+      "detail-1": "N-Commerce is the concept of decentralizing the retail distribution network to leverage the benefits of blockchain technology to ensure fair trade between distributors and end consumers.",
+      "detail-2": "This concept merges the traditional concept of primary and secondary trading of real world physical goods.",
+      "detail-3": "A buyer can purchase the product first-hand directly through the presale model using first-come-first-serve and give a fair chance to all interested buyers.",
+      "founded": "Founded",
+      "employee": "Employees",
+      "year": "2021",
+      "emp-number": "80",
+      "user": "Users",
+      "user-number": "600K+",
+      "nfts": "NFTs",
+      "nfts-amount": "20M+",
+      "volume": "Volume",
+      "volume-amount": "$10B+"
+    },
+    "meet": {
+      "title": "Meet N-Commerce",
+      "detail": "The NFT marketplace with everything for everyone."
+    },
+    "founder": {
+      "detail_titile": "The team behind N-Commerce",
+      "members_list": {
+        "name": "NFT1.Forge",
+        "numbers": "25+",
+        "position": "Team Members"
+      },
+      "lists": [
+        {
+          "name": "Stephane",
+          "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/founder-1.jpg",
+          "email": "stephane@nft1.global",
+          "position": "NFT1 CEO & Co-Founder"
+        },
+        {
+          "name": "Sophia",
+          "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/founder-3.jpg",
+          "email": "t.me/nonfungiblesofie",
+          "position": "CCO & Co-Founder"
+        },
+        {
+          "name": "Don",
+          "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/founder-2.jpg",
+          "email": "don@nft1.global",
+          "position": "Director & Co-Founder"
+        },
+        {
+          "name": "Cha",
+          "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/exe3.jpg",
+          "email": "cha@nft1.global",
+          "position": "Head of Technology"
+        },
+        {
+          "name": "Jai",
+          "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/man3.jpg",
+          "email": "chakorn@nft1.global",
+          "position": "Software Product Manager"
+        },
+        {
+          "name": "K",
+          "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/man2.jpg",
+          "email": "kanthawat@nft1.global",
+          "position": "Software Development"
+        }
+      ]
+    },
+    "partner": {
+      "title": "Partners",
+      "detail": "who are helping us pave the way towards a brand new digital economy"
+    },
+    "about-us": {
+      "title": "about us in the news",
+      "detail": "NFT1 is the world's leading provider of blockchain and NFT technology adaptation services."
+    }
+  },
+  "how-to": {
+    "menu": {
+      "list-link": "Help center",
+      "tab-menu-1": "How to buy",
+      "tab-menu-2": "What is N-Commerce",
+      "tab-menu-3": "Redeem physical format",
+      "tab-menu-4": "Redeem digital format"
+    },
+    "footer": {
+      "title": "Was this article helpful ?",
+      "title-2": "Do you have any additional questions?",
+      "btn": "Submit a request",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "buy": {
+      "how-to-buy": " How To Buy",
+      "title": "How to buy NFTs on N-Commerce?",
+      "update-at": "13 days ago • Updated",
+      "detail-1": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus. Commodi rerum cumque non natus doloribus sed fugiat eos. Debitis vitae quia et amet aperiam dolores quia consequatur. Dolorum dolorem nostrum sequi sint molestiae maiores perferendis velit.",
+      "detail-2": "Minima deserunt tempore sed nam id ea necessitatibus. Et pariatur ut illum aliquam consequatur dolorem magni. Inventore consequatur ut dicta sint quaerat earum deleniti. Nobis saepe rerum et facilis autem voluptates magni itaque quo."
+    },
+    "quick-start": {
+      "title": "Quick Start",
+      "detail": "This section contains quick start guides to help you buy and redeem products from the N-Commerce website.",
+      "content-title": "BUYING TO REDEMPTION",
+      "step": "Step",
+      "step1": "1",
+      "step2": "2",
+      "step3": "3",
+      "step4": "4",
+      "content-detail-step1": "Preorder the product and receive an N-Commerce NFT 1:1 pegged for the product. Each NFT represents one chance to win a free gift.",
+      "content-detail-step2_1": "Sell the NFT on the OKX marketplace for secondary trade if desired.",
+      "content-detail-or": "Or",
+      "content-detail-step2_2": "Hold in the wallet and wait for the redemption date (in case of preorder model)",
+      "content-detail-step3": "At the redemption point, the NFT holder will enter a Lucky Draw to get a chance for winning a free gift.",
+      "content-detail-step4": "Redemption date: NFT holders can burn the N-Commerce NFT to redeem the actual product sent to their designated address. Redeemers will need to pay for VAT and Shipping Fees in OKT."
+    },
+    "redeem": {
+      "title": " How To Redeem",
+      "title-physical": "Redeem physical format",
+      "title-digital": "Redeem digital format",
+      "title-2": "How to redeem physical format",
+      "detail-1": "Minima deserunt tempore sed nam id ea necessitatibus. Et pariatur ut illum aliquam consequatur dolorem magni. Inventore consequatur ut dicta sint quaerat earum deleniti. Nobis saepe rerum et facilis autem voluptates magni itaque quo.",
+      "detail-2": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+      "detail-3": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+      "detail-4": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+      "detail-5": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+      "detail-6": "Minima deserunt tempore sed nam id ea necessitatibus. Et pariatur ut illum aliquam consequatur dolorem magni. Inventore consequatur ut dicta sint quaerat earum deleniti. Nobis saepe rerum et facilis autem voluptates magni itaque quo.",
+      "detail-7": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus."
+    }
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "contents": [
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+      }
+    ]
+  },
+  "terms_of_service": {
+    "title": "Terms of service",
+    "effective_date": "Effective date: 20/10/2021",
+    "contents": [
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+        "detail": [
+          "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+          "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+        ]
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+      },
+      {
+        "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+        "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+      }
+    ]
+  },
+  "product-list": {
+    "limited-lbl": "All Limited edition",
+    "marketplace-lbl": "All NFT Marketplace",
+    "home-navigation-lbl": "Home",
+    "limited-navigation-lbl": "All Limited Edition",
+    "marketplace-navigation-lbl": "All NFT Marketplace",
+    "load-more": "Load More"
+  }
+}

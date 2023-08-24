@@ -1,0 +1,284 @@
+{
+  "product_detail": [
+    {
+      "card_presale": {
+        "product_id": "316739664b60309bb5a3978a641b0da7",
+        "product_price_id": "45664b4db99339d8b91a889d25df3953",
+        "price": 0.0067,
+        "sale_price": 0.005,
+        "currency": "USDC",
+        "price_image": "USDC",
+        "main_title": "Year Of The Rat Edition",
+        "sub_title": "Keyboards",
+        "discount": 25,
+        "start_data": 1651059667,
+        "close_data": 1672505999,
+        "thumbnail_image": [
+          "img_slide0.jpeg",
+          "img_slide1.jpeg",
+          "img_slide2.jpeg",
+          "img_slide3.jpeg",
+          "img_slide4.jpeg",
+          "img_slide5.jpeg",
+          "img_slide6.jpeg",
+          "img_slide7.jpeg",
+          "img_slide8.jpeg",
+          "img_slide9.jpeg"
+        ],
+        "status": 2
+      },
+      "tab_detail": {
+        "overview": {
+          "is_highlight": true,
+          "title": "Uniqueness and more collecting value",
+          "img": "img_limited.png"
+        },
+        "spec": {
+          "product_number": "DKYOTR2020",
+          "structure": "Mechanical structure",
+          "trigger_switch": "Cherry MX mechanical switches",
+          "led": "RGB",
+          "connection_interface": "USB 2.0",
+          "keycap_material": "PBT",
+          "output_key_number": "USB N-Key Rollover",
+          "printing_technology": "Dye-Sublimation",
+          "dimensions": "305 x 105 x 38 mm",
+          "weight": "593g",
+          "origin_of_production": "Taiwan",
+          "contact_address": "0x25534288752Ca9660B94b12d797AB9f8DB041D2B",
+          "token_standard": "ERC-721",
+          "blockchain": "OKC (OKT)",
+          "note": [
+            "Shipping to Thailand Only"
+          ]
+        },
+        "download": {
+          "doc_name": "DKYOTR2020",
+          "path": "https://www.duckychannel.com.tw/upload/2021_01_132/20210113111244kej4qqSKW1.pdf"
+        }
+      },
+      "feature_list": [
+        {
+          "title": "Dye-sublimation techniques graffiti elements",
+          "article": "This allows him to hide and wittily contrasts the color around the mist. Above the mist, there are some familiar traffic symbols, aiding “Bounce Mouse” for his sense of direction when he travels and paints during the night.sion mobile",
+          "image": "key_feature_1"
+        },
+        {
+          "title": "Hot-swap",
+          "article": "The Year of the Rat keyboard is based on the newest version of Ducky's hot-swap keyboard. Hot swapping is the replacement or addition of components to a computer system without stopping, shutting down, or rebooting the system.",
+          "image": "key_feature_2"
+        },
+        {
+          "title": "3 level angle adjustment keyboard stand",
+          "article": "Two-step keyboard feet allow you to set your keyboard at three different tilt angles.",
+          "image": "key_feature_3"
+        },
+        {
+          "title": "Dye-sublimation techniques graffiti elements",
+          "article": "This allows him to hide and wittily contrasts the color around the mist. Above the mist, there are some familiar traffic symbols, aiding “Bounce Mouse” for his sense of direction when he travels and paints during the night.sion mobile",
+          "image": "key_feature_1"
+        }
+      ]
+    },
+    {
+      "card_presale": {
+        "product_id": "1",
+        "product_price_id": "1",
+        "price": 0.0620,
+        "sale_price": 0.005,
+        "currency": "OKT",
+        "price_image": "OKT.svg",
+        "main_title": "Good in Blue",
+        "sub_title": "Keycaps",
+        "discount": 25,
+        "start_data": null,
+        "close_data": null,
+        "thumbnail_image": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "status": 1
+      },
+      "tab_detail": {
+        "overview": {
+          "is_highlight": false,
+          "title": "Sky blue Ocean blue Cloud white",
+          "img": ""
+        },
+        "spec": {
+          "material": "PBT",
+          "printing_technology": "Double-shot",
+          "layout": "ANSI",
+          "contact_address": "0x25534288752Ca9660B94b12d797AB9f8DB041D2B",
+          "token_standard": "ERC-721",
+          "blockchain": "OKC (OKT)",
+          "note": [
+            "Shipping to Thailand Only"
+          ]
+        },
+        "download": {
+          "doc_name": null,
+          "path": null
+        }
+      },
+      "feature_list": [
+        {
+          "title": "MATERIAL",
+          "article": "PBT Double-shot seamless",
+          "image": ""
+        },
+        {
+          "title": "DETAILED",
+          "article": "Dual colors design Non-backlit keycaps",
+          "image": ""
+        },
+        {
+          "title": "FOCUS",
+          "article": "Sea wave, ocean, blue sky",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "card_presale": {
+        "product_id": "2",
+        "product_price_id": "2",
+        "price": 0.0020,
+        "sale_price": 0.005,
+        "currency": "OKT",
+        "price_image": "OKT.svg",
+        "main_title": "Feather",
+        "sub_title": "Mice",
+        "discount": 25,
+        "start_data": null,
+        "close_data": null,
+        "thumbnail_image": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "status": 2
+      },
+      "tab_detail": {
+        "overview": {
+          "is_highlight": false,
+          "title": "An evolution of our Secret series, taking performance to another level",
+          "img": ""
+        },
+        "spec": {
+          "model": "DMFE20O",
+          "interface": "USB 2.0",
+          "censor": "PixArt PMW3389DM",
+          "micro_switch": "Hauno Micro Switch",
+          "roller": "Kailh Encoder 9mm",
+          "resolution": "16000",
+          "cable_length": "1.8M",
+          "dimensions": "124x59x36 mm",
+          "weight": "Weight",
+          "origin_of_production": "China",
+          "contact_address": "0x25534288752Ca9660B94b12d797AB9f8DB041D2B",
+          "token_standard": "ERC-721",
+          "blockchain": "OKC (OKT)",
+          "note": [
+            "Shipping to Thailand Only"
+          ]
+        },
+        "download": {
+          "doc_name": "DKYOTR2020",
+          "path": "https://www.duckychannel.com.tw/upload/2021_01_132/20210113111244kej4qqSKW1.pdf"
+        }
+      },
+      "feature_list": [
+        {
+          "title": "WEIGHT",
+          "article": "65g Perfect balanced weight",
+          "image": ""
+        },
+        {
+          "title": "STRUCTURE",
+          "article": "Huano 50M Micro Switches",
+          "image": ""
+        },
+        {
+          "title": "CABLE",
+          "article": "Highly flexible paracord",
+          "image": ""
+        },
+        {
+          "title": "OPTICAL SENSOR",
+          "article": "PixArt PMW3389DM Optical sensor",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "card_presale": {
+        "product_id": "3",
+        "product_price_id": "3",
+        "price": 0.0015,
+        "sale_price": 0.005,
+        "currency": "OKT",
+        "price_image": "OKT.svg",
+        "main_title": "Feather",
+        "sub_title": "Mice",
+        "discount": 25,
+        "start_data": null,
+        "close_data": null,
+        "thumbnail_image": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "status": 2
+      },
+      "tab_detail": {
+        "overview": {
+          "is_highlight": false,
+          "title": "2 tone color theme\nMultiple colorways to enrich your setup",
+          "img": ""
+        },
+        "spec": {
+          "model": "Premicord",
+          "interface": "Detachable USB Type-C",
+          "color": "Cotton Candy",
+          "contact_address": "0x25534288752Ca9660B94b12d797AB9f8DB041D2B",
+          "token_standard": "ERC-721",
+          "blockchain": "OKC (OKT)",
+          "note": [
+            "Shipping to Thailand Only"
+          ]
+        },
+        "download": {
+          "doc_name": "DKYOTR2020",
+          "path": "https://www.duckychannel.com.tw/upload/2021_01_132/20210113111244kej4qqSKW1.pdf"
+        }
+      },
+      "feature_list": [
+        {
+          "title": "SIGNAL INPUT",
+          "article": "Certified 5 pin aviation head",
+          "image": ""
+        },
+        {
+          "title": "INTERFACE",
+          "article": "Detachable USB Type-C",
+          "image": ""
+        },
+        {
+          "title": "CABLE",
+          "article": "Nylon PET shrinkable film cable",
+          "image": ""
+        },
+        {
+          "title": "COLOR",
+          "article": "Cotton Candy",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

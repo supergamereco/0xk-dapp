@@ -1,0 +1,25 @@
+{
+    "modals_claim_success": {
+        "time": "2d 10: 30 : 20"
+    },
+    "modals_redeem_detail": {
+        "amount": 4,
+        "type": "physical"
+    },
+    "modals_confirm_shipping": {
+        "type": "physical",
+        "type_ps": "PS4",
+        "address": "RudolphMcDermott | (+55) 8204789542 580 Thorn Street Clark, Bangkok 82414",
+        "email": "McDermott@gmail.com",
+        "fee": 0.0010,
+        "vat": 0.00007,
+        "percent_vat": 7,
+        "total": 0.00107,
+        "amount": 4
+    },
+    "modals_redeem_physical": {
+        "order_no": "4978 2144 5337",
+        "collect_amount": 1,
+        "stardard_amount": 4
+    }
+}

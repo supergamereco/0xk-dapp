@@ -1,0 +1,751 @@
+{
+    "errors": {
+      "default": "พบปัญหาบางอย่าง กรุณาลองอีกครั้งหรือติดต่อทีมงาน",
+      "metamask-cannot-connect": "พบปัญหาในการเชื่อมต่อ กรุณาติดตั้ง Metamask หรือตรวจสอบ network",
+      "balance-error": "พบปัญหาในการรับข้อมูลบัญชี",
+      "processing-error": "พบข้อผิดพลาด! Metamask ไม่ทำงาน",
+      "getting-data-error": "พบปัญหาในการดึงข้อมูลจาก Metamask"
+    },
+    "common": {
+      "save-btn": "บันทึก",
+      "send-btn": "ส่ง",
+      "preorder-btn": "Preorder เลย",
+      "buy-btn": "Buy Now",
+      "wishlist-btn": "เพิ่มใน Wishlist",
+      "roadmap": "Roadmap",
+      "games": "Elden Ring",
+      "products": "Ducky Keyboard"
+    },
+    "from": {
+      "full-name": "ชื่อ นามสกุล*",
+      "company-name": "ชื่อบริษัท (ไม่จำเป็นต้องกรอก)",
+      "email": "Email*",
+      "message": "ข้อความ*"
+    },
+    "validation": {
+      "field-error_empty": "ยังไม่ได้กรอกข้อมูล",
+      "field-error_email-format": "Entered value does not match email format.",
+      "field-error_characterUsername":  "โปรดป้อนอักขระไม่เกิน 20 ตัวอักษร"
+    },
+    "card-presale": {
+      "discount-lbl": "-{discount}% Preorder",
+      "open-pre-date-lbl": "วันวางจำหน่าย {openData}",
+      "quantity-lbl": "จำนวน",
+      "price-lbl": "ราคา",
+      "prp-lbl": "PRP",
+      "btn-pre-lbl": "Preorder เลย",
+      "btn-buy-lbl": "Buy Now",
+      "btn-wishlist-lbl": "เพิ่มใน Wishlist",
+      "total-lbl": "จำกัดจำนวน",
+      "closes-lbl": "จะสิ้นสุดใน",
+      "current-total-unit-lbl": "{current} / {total} ชุด"
+    },
+    "card-default-presale": {
+      "starting-lbl": "Starting in",
+      "ending-lbl": "จะสิ้นสุดใน",
+      "total-lbl": "จำกัดจำนวน",
+      "price-lbl": "ราคา",
+      "current-total-unit-lbl": "{current} / {total} ชุด",
+      "btn-pre-lbl": "Preorder เลย",
+      "btn-coming-soon-lbl": "Coming Soon",
+      "btn-wishlist-lbl": "เพิ่มใน Wishlist"
+    },
+    "datatable-selection": {
+      "check-box-selection-all": "เลือกทั้งหมด",
+      "total-time-redeem": "ทั้งหมด {minutes} ไอเท็ม :",
+      "token-id": "Token ID",
+      "status": "Status",
+      "order-id": "Order ID"
+    },
+    "card-profile": {
+      "pre-order": "Preorder",
+      "price": "ราคา",
+      "platform": "Platform",
+      "claimable-in": "เคลมได้ใน",
+      "redeemable-in": "แลกได้ใน",
+      "claimable-btn": "เคลม NFT",
+      "redeemable-btn": "รีดีม"
+    },
+    "profile-list-claim": {
+      "my-collection": "Collection ของฉัน",
+      "product-name": "Ducky Keyboard",
+      "claimable-list-all": "รายการที่เคลมได้"
+    },
+    "redeem-list": {
+      "redeemable": "สามารถรีดีมได้",
+      "redeemable-list-all": "รายการที่รีดีมได้"
+    },
+    "modal-checkout": {
+      "title-approve": "Grant permission to access your wallet",
+      "title-mint": "Mint",
+      "accept-terms": "ณ เวลารีดีม จะมีการชำระ VAT และค่าจัดส่งเพิ่มเติม",
+      "detail-process": "กรุณาดำเนินการต่อใน wallet (Metamask)",
+      "inprogress": "กำลังดำเนินการ...",
+      "success-title": "Purchase Success",
+      "purchase-success": "You successfuly purchased",
+      "status": "สถานะ",
+      "transaction-hash": "Transaction Hash",
+      "share": "แชร์",
+      "purchase-falied": "การซื้อล้มเหลว",
+      "checkout-again": "ซื้ออีกครั้ง",
+      "checkout-title": "Checkout",
+      "checkout-btn": "Checkout",
+      "checkout-redeem": "See Minted NFT",
+      "checkout-close-try": "Close and Try Again",
+      "select-platform": "Please Select Your Platform!",
+      "login-metamask": "Please log in to your Metamask!"
+    },
+    "tooltip": {
+      "collector-edition": "ผู้โชคดีจะได้รับการอัพเกรดเป็น Collector's Edition ฟรี! กรุณาเลือกแพลตฟอร์มที่ท่านต้องการหากท่านเป็นผู้โชคดี",
+      "token-id": "You can copy the Token ID of the NFT and enter it into the N Commerce Authenticator for verification of NFT authenticity easily.",
+      "info-card": "Hurry and claim your NFT! 24 hours before the game launch date, limited numbers of NFT holders will get a free upgrade to Collector's Edition."
+    },
+    "nav-bar": {
+      "resources": "Resources",
+      "quick-start": "วิธีใช้",
+      "help-center": "ศูนย์ช่วยเหลือ",
+      "partner": "Partners",
+      "roadmap": "Roadmap",
+      "authenticator": "Authenticator",
+      "news": "ข่าวสาร",
+      "eng": "English",
+      "thai": "ไทย",
+      "menu-profile": {
+        "profile": "โพรไฟล์",
+        "wishlist": "Wishlist",
+        "my-collections": "Collection ของฉัน",
+        "redeem": "รีดีม",
+        "setting": "ตั้งค่า"
+      },
+      "btn": "เชื่อม Wallet"
+    },
+    "footer": {
+      "form-title": "รับข่าวสารล่าสุดของ N-Commerce",
+      "btn-submit": "สมัคร",
+      "join-us": "ติดตามข่าวสาร",
+      "text-detail": "N-Commerce คือรูปแบบการขายปลีกที่ใช้คอนเซปต์ของ decentralization network เพื่อใช้ประโยชน์สูงสุดจากเทคโนโลยี blockchain ในการรับประกันการซื้อขายระหว่างผู้จัดจำหน่ายและผู้ซื้อ",
+      "my-account": "บัญชีของฉัน",
+      "resources": "ข้อมูล",
+      "authenticator": "Authenticator",
+      "newsletter": "จดหมายข่าว",
+      "company": "บริษัท",
+      "about-us": "เกี่ยวกับเรา",
+      "contact-us": "ติดต่อเรา",
+      "ref": "© 2022 N-Commerce. All rights reserved.",
+      "policy": "Privacy Policy",
+      "team": "Terms of Service",
+      "your-e-mail": "Your e-mail"
+    },
+    "authen": {
+      "title-lbl-1": "N-Commerce NFT",
+      "title-lbl-2": "Authenticator",
+      "sub-title-lbl": "ปลอดโกง 100% ด้วยการตรวจสอบผ่าน authenticator ด้วยตนเอง",
+      "btn-verify-nft-lbl": "ตรวจสอบ NFT",
+      "verified-status-lbl": "ผ่านการตรวจสอบ",
+      "incorrect-token-id-status-lbl": "Token ID ไม่ถูกต้อง",
+      "token-id-lbl": "Token ID",
+      "nft-lbl": "NFT",
+      "redemption-lbl": "การรีดีม",
+      "wallet-address-lbl": "Wallet Address",
+      "redeemed-lbl": "ถูกรีดีมไปแล้ว",
+      "available-lbl": "สามารถรีดีมได้",
+      "owner-wallet-address": "ที่อยู่กระเป๋าของเจ้าของปัจจุบัน"
+    },
+    "modals": {
+      "wallet-connect": {
+        "wallet-title": "เชื่อม Wallet",
+        "wallet-title-disconnect": "Wallet ที่เชื่อมอยู่",
+        "wallet-address": "Wallet Address",
+        "wallet-disconnect": "ตัดการเชื่อม Wallet",
+        "wallet-how-to-connect": "Learn How to Connect",
+        "wallet-have-not-wallet": "Haven’t got a crypto wallet yet?"
+      },
+      "profile-claim": {
+        "title": "คุณต้องการรีดีม?",
+        "btn": "ใช่ รีดีมเลย"
+      },
+      "claim-nft": {
+        "title-modal": "เคลม NFT",
+        "title": "Send transaction with your wallet",
+        "btn": "กำลังดำเนินการ..."
+      },
+      "claim-success": {
+        "title": "สามารถรีดีมได้",
+        "btn": "ตรวจสอบ NFT"
+      },
+      "claim-fail": {
+        "title-modal": "เคลม NFT ไม่สำเร็จ",
+        "title": "Some error occurred",
+        "btn": "Claim Again"
+      },
+      "redeem-detail": {
+        "title-approve": "Grant permission to access your wallet",
+        "title-burn": "Burn",
+        "title": "ที่อยู่จัดส่ง",
+        "validate-empty": "กรุณากรอกข้อมูล",
+        "validate-phone": "รูปแบบไม่ถูกต้อง ต้องเป็น xxx-xxxxxxx",
+        "validate-select-option": "กรุณาเลือกตัวเลือก",
+        "validate-email": "รูปแบบไม่ถูกต้อง",
+        "notification-email": "บันทึกที่อยู่",
+        "summary": "ข้อมูลการรีดีม",
+        "transaction-confirmation": "Transaction Confirmation",
+        "game": "Elder Ring",
+        "detail-game": " DuckyChannel International",
+        "type": "Quantity",
+        "amount": "x {amount}",
+        "software-format": "รูปแบบเกม",
+        "collection-edition": "เลือก Collector’s Edition",
+        "ps4": "PS4",
+        "ps5": "PS5",
+        "redeem": "รีดีม",
+        "collector-edition": "Collector's Edition",
+        "shipping-payment": "ค่าธรรมเนียมเพิ่มเติม",
+        "shipping-fee": "ค่าขนส่ง",
+        "vat": "VAT {percent}%",
+        "total-payment": "ยอดชำระรวม",
+        "confirm": "ยืนยัน",
+        "icon-text": "Once redeemed, the NFT will be burnt from the supply.",
+        "title-modal": "Redemption Details",
+        "ok-btn": "OK",
+        "inprogress": "In progress…",
+        "btn-view-detail": "View Details",
+        "btn-close-try": "Close and Try Again"
+      },
+      "redeem-confirm-shipping": {
+        "title": "Confirm Shipping",
+        "shipping-type": "Physical"
+      },
+      "redeem-success": {
+        "modal-title": "Redeem Success",
+        "title": "ยินดีด้วย!",
+        "detail-title": "คุณได้รับการอัพเกรดฟรี เป็น Collector's Edition!",
+        "order-no": "Token ID. {order}",
+        "collector": "Collector's",
+        "amount-collect": "x {amount}",
+        "view-detail": "ดูรายละเอียด"
+      },
+      "physical-key": {
+        "copy-key": "คัดลอกคีย์",
+        "guide": "วิธีใช้คีย์"
+      },
+      "redeem-fail": {
+        "title": "Confirm Shipping Failed",
+        "confirm-shipping-fail": "Confirm Shipping Failed",
+        "redeem-again": "Confirm Again"
+      }
+    },
+    "home": {
+      "btn-pre-lbl": "Preorder เลย",
+      "btn-wishlist-lbl": "เพิ่มใน Wishlist",
+      "title-limited-lbl": "Limited edition",
+      "section-get_start": {
+        "title-lbl": "แนะนำ",
+        "sub-title-lbl": "N-Commerce คืออะไร",
+        "info-1-lbl": "N-Commerce คือรูปแบบการขายปลีกที่ใช้คอนเซปต์ของ decentralization network เพื่อใช้ประโยชน์สูงสุดจากเทคโนโลยี blockchain ในการรับประกันการซื้อขายระหว่างผู้จัดจำหน่ายและผู้ซื้อ",
+        "info-2-lbl": "คอนเซปต์นี้คือการผสมผสานระหว่างการขายแบบดั้งเดิม และการขายต่อของผู้เล่นด้วยกันเอง"
+      },
+      "section-feature": {
+        "title-lbl": "FEATURES",
+        "sub-title-lbl": "Buy and Redeem",
+        "info-1-hilight-lbl": "Buy",
+        "info-1-lbl": " (Mint) your favorite product as an NFT",
+        "info-2-hilight-lbl": "Claim NFT",
+        "info-2-lbl": " your product as an NFT that enables unique benefits such as a chance for a free gift.",
+        "info-3-hilight-lbl": "Redeem",
+        "info-3-lbl": " your NFT for the physical product to be shipped to your home. After the redemption, the NFT will be burnt from the supply."
+      },
+      "section-privileges": {
+        "title-lbl": "PRIVILEGES",
+        "sub-title-lbl": "0% Scam Possible, Lucky Draw",
+        "info-1-hilight-lbl": "0% Scam Possible",
+        "info-1-lbl": " Check by yourself if the NFT is valid by copying and pasting the NFT Token ID into N-Commerce Authenticator.",
+        "info-3-hilight-lbl": "Lucky Draw",
+        "info-3-lbl": "Have a chance to win a free gift depending on the Presale phases."
+      },
+      "section-roadmap": {
+        "info-lbl": "How we created the N-Commerce"
+      },
+      "section-founder": {
+        "title-lbl": "ผู้ก่อตั้ง",
+        "info-lbl": "ทีมงานผู้อยู่เบื้องหลัง N-Commerce"
+      },
+      "section-releseNews": {
+        "title-lbl": "ข่าวเปิดตัว"
+      },
+      "section-partner": {
+        "title-lbl": "Partners"
+      },
+      "section-process-info": {
+        "title-lbl": "Buy, Claim NFTs and Redeem",
+        "buy-title": "Buy ",
+        "buy-detail": "(Preorder) your favorite game using the preorder model.",
+        "claim-title": "Claim NFTs ",
+        "claim-detail": "your game as an NFT that enables unique benefits such as a chance for the free upgrade to Collector's Edition and NC NFT.",
+        "claim-detail-note": "*User can use NC NFT for a special discount on the later product",
+        "claim-detail-note2": "(T&C apply)",
+        "redeem-title": "Redeem ",
+        "redeem-detail": "your NFT for the game key (digital version) or get the game shipped to your home (physical box) After the redemption, the NFT will be burned from the supply."
+      },
+      "section-popular-category": {
+        "title-lbl": "Popular categories"
+      },
+      "section-marketplace": {
+        "title-lbl": "NFT Marketplace"
+      }
+    },
+    "filter": {
+      "view-all-btn": "View All",
+      "filter-lbl": "Filter",
+      "category-lbl": "Category",
+      "status-lbl": "Status",
+      "sort-by-lbl": "Sort By"
+    },
+    "game-detail": {
+      "tab": {
+        "overview": "OVERVIEW",
+        "specifications": "SPECIFICATIONS",
+        "download": "DOWNLOAD"
+      },
+      "tab-sale-detail": {
+        "product-number": "Product Number",
+        "structure": "Structure",
+        "trigger-switch": "Trigger switch",
+        "led": "LED",
+        "connection-interface": "Connection interface",
+        "keycap-material": "Keycap material",
+        "output-key-number": "Output key number",
+        "printing-technology": "Printing technology",
+        "dimensions": "Dimensions",
+        "weight": "Weight",
+        "origin-of-production": "Origin of production",
+        "contract-address": "Contract Address",
+        "token-id": "Token ID",
+        "token-standard": "Token Standard",
+        "blockchain": "Blockchain",
+        "note": "Note:",
+        "note-1": "Shipping to Thailand Only"
+      },
+      "tab-download": {
+        "user-manual": "Ducky YOTR User Manual"
+      },
+      "key-feature": "ฟีเจอร์เด่น"
+    },
+    "my-profile-menu": {
+      "my-profile": "โพรไฟล์ของฉัน",
+      "redeem": "รีดีม",
+      "address-book": "Address Book",
+      "setting": "ตั้งค่า"
+    },
+    "my-profile": {
+      "title": "โพรไฟล์ของฉัน",
+      "my-item": "{amount}",
+      "items": "ชิ้น",
+      "tab": {
+        "collection": "Collection ของฉัน",
+        "wishlish": "Wishlist ของฉัน",
+        "activity": "ประวัติ ของฉัน"
+      },
+      "claim-btn": "เคลม",
+      "redeem-btn": "รีดีม",
+      "filter-by": "กรองเฉพาะ",
+      "sort": "เรียงตาม",
+      "recently-listed": "ออกใหม่",
+      "filter": {
+        "all": "ทั้งหมด",
+        "buy": "ซื้อ",
+        "claim": "เคลม NFT",
+        "redeem": "รีดีม"
+      },
+      "wishlist": {
+        "total-sales": "จำกัดจำนวน",
+        "price": "ราคา",
+        "current-total-unit-lbl": "{current} / {total} ชุด"
+      },
+      "activity": {
+        "buy-status": "Buy",
+        "redeem-status": "Redeem",
+        "claim-status": "Claim",
+        "from": "จาก",
+        "to": "ถึง",
+        "price": "ราคา",
+        "date": "วันที่"
+      }
+    },
+    "redeem": {
+      "title": "รีดีม",
+      "tab": {
+        "redeemable": "รีดีมได้",
+        "history": "ประวัติ"
+      },
+      "sort": "เรียงตาม",
+      "history": {
+        "filter-by": "กรองเฉพาะ",
+        "sort": "เรียงตาม",
+        "filter-text": "กรอง",
+        "filter": {
+          "all": "ทั้งหมด",
+          "ship": "ต้องจัดส่ง",
+          "recive": "ต้องได้รับ",
+          "completed": "เสร็จสิ้น"
+        },
+        "order-id": "Order ID",
+        "token": "Token ID: {id}",
+        "platform": "Platform",
+        "status": "สถานะ",
+        "date": "วันที่",
+        "shipping-info": "ข้อมูลจัดส่ง",
+        "tracking": "Tracking Number |",
+        "logistic": "ผู้ให้บริการจัดส่ง",
+        "delivery-address": "ที่อยู่จัดส่ง",
+        "weeks": "สัปดาห์ที่แล้ว",
+        "days": "วันที่แล้ว",
+        "hours": "ชั่วโมงที่แล้ว",
+        "minutes": "นาทีที่แล้ว"
+      }
+    },
+    "contact": {
+      "title-contact-us": "ติดต่อเรา",
+      "title-contact": "รับข่าวสาร",
+      "detail": "You can submit your inquiry/suggestion or complaint about our services via the Contact Form.",
+      "email-contact": "Ncommerce@nft1.global",
+      "phone-contact": "897-462-9003",
+      "address-1": "บริษัท NFT1 จำกัด ชั้น 11 อาคาร FYI Center",
+      "address-2": "คลองเตย พระราม 4",
+      "address-3": "กรุงเทพฯ"
+    },
+    "profile-address": {
+      "title": "Address Book",
+      "full-name": "ชื่อเต็ม*",
+      "phone-number": "หมายเลขโทรศัพท์*",
+      "email": "อีเมล*",
+      "address": "ที่อยู่จัดส่ง*",
+      "district": "เขต*",
+      "postcode": "รหัสไปรษณีย์*",
+      "province": "จังหวัด*"
+    },
+    "profile-setting": {
+      "title": "ตั้งค่า",
+      "image": "รูปโพรไฟล์",
+      "username": "Display Name*",
+      "email": "E-mail",
+      "address-wallet": "Wallet Address"
+    },
+    "help-center": {
+      "title-lbl": "ต้องการทราบเรื่องอะไร?",
+      "sub-title-lbl": "ค้นหาใน ศูนย์ช่วยเหลือ หรือดู คำถามที่พบบ่อย และข้อมูลอื่น ๆ",
+      "header-help-lbl": "หัวข้อที่น่าสนใจ",
+      "card-list": [
+        {
+          "title": "เริ่มเลย",
+          "detail": "คำแนะนำต่างๆเกี่ยวกับ N-Commerce DApp",
+          "url": "/how-to-quick-start",
+          "txt": ""
+        },
+        {
+          "title": "วิธีซื้อ",
+          "detail": "ดูขั้นตอนซื้อ NFT แบบง่ายๆ",
+          "url": "/how-to-buy",
+          "txt": ""
+        },
+        {
+          "title": "What is N-Commerce",
+          "detail": "The better point of using N-Commerce over E-Commerce.",
+          "url": "#",
+          "txt": "เร็วๆ นี้"
+        },
+        {
+          "title": "วิธีรีดีม",
+          "detail": "คำแนะนำวิธีการรีดีม NFT",
+          "url": "/how-to-redeem",
+          "txt": "เร็วๆ นี้"
+        },
+        {
+          "title": "วิธีขาย NFT",
+          "detail": "ต้องการขาย NFT ของคุณไปยังตลาดอื่นหรือไม่? ",
+          "url": "#",
+          "txt": "เร็วๆ นี้"
+        },
+        {
+          "title": "คำถามที่พบบ่อย",
+          "detail": "ดูคำถามที่พบบ่อย",
+          "url": "#",
+          "txt": "เร็วๆ นี้"
+        }
+      ],
+      "promoted-articles-list": [
+        {
+          "title": "Wallet คืออะไร?"
+        },
+        {
+          "title": "สามารถรับ OKT ได้อย่างไร?"
+        },
+        {
+          "title": "N-Commerce รองรับเชนอะไรบ้าง?"
+        },
+        {
+          "title": "จะตั้ง NFT เป็นรูปโพรไฟล์ Twitter ได้อย่างไร?"
+        },
+        {
+          "title": "การซื้อสินค้าจาก N-Commerce มีประโยชน์อย่างไร?"
+        },
+        {
+          "title": "ฉันจะได้รับของขวัญฟรีได้อย่างไร?"
+        },
+        {
+          "title": "จะยกเลิกการเข้าถึงของไอเทมที่ไม่มีอยู่แล้ว ได้อย่างไร?"
+        },
+        {
+          "title": "สินค้าจะถูกส่งไปยังบ้านของฉันอย่างไร? ใครเป็นคนจ่ายค่าขนส่ง?"
+        }
+      ]
+    },
+    "about": {
+      "banner": {
+        "title": "N-commerce มีคอนเซปต์มาจากการกระจายศูนย์",
+        "detail-1": "N-commerce มีคอนเซปต์มาจากการขายออนไลน์แบบกระจายศูนย์ เพื่อยกระดับการใช้ประโยชน์จากเทคโนโลยีบล็อคเชน ในการรับประกันการซื้อขายระหว่างผู้จัดจำหน่าย และผู้ซื้อ",
+        "detail-2": "คอนเซปต์นี้เป็นการรวมรูปแบบการขายทั้งมือ 1 และการขายต่อในโลกออฟไลน์เข้าไว้ด้วยกัน",
+        "detail-3": "ผู้ซื้อสามารถซื้อสินค้าได้ด้วยระบบ Preorder ในรูปแบบซื้อก่อนได้ก่อน ทำให้เกิดความยุติธรรมต่อผู้ซื้อทุกคน",
+        "founded": "ก่อตั้ง",
+        "employee": "พนักงาน",
+        "year": "2021",
+        "emp-number": "80",
+        "user": "ผู้ใช้",
+        "user-number": "600K+",
+        "nfts": "NFTs",
+        "nfts-amount": "20M+",
+        "volume": "ปริมาณการซื้อขาย",
+        "volume-amount": "$10B+"
+      },
+      "meet": {
+        "title": "พบกับ N-Commerce",
+        "detail": "ตลาดซื้อขาย NFT ที่มีทุกอย่างสำหรับทุกคน"
+      },
+      "founder": {
+        "detail_titile": "The team behind N-Commerce",
+        "members_list": {
+          "name": "Team Members",
+          "numbers": "25+",
+          "position": "Manager"
+        },
+        "lists": [
+          {
+            "name": "Stephane",
+            "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/founder-1.jpg",
+            "email": "stephane@nft1.global",
+            "position": "NFT1 CEO & Co-Founder"
+          },
+          {
+            "name": "Sophia",
+            "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/founder-3.jpg",
+            "email": "t.me/nonfungiblesofie",
+            "position": "CCO & Co-Founder"
+          },
+          {
+            "name": "Don",
+            "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/founder-2.jpg",
+            "email": "don@nft1.global",
+            "position": "Director & Co-Founder"
+          },
+          {
+            "name": "Cha",
+            "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/exe3.jpg",
+            "email": "cha@nft1.global",
+            "position": "Head of Technology"
+          },
+          {
+            "name": "Jai",
+            "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/man3.jpg",
+            "email": "chakorn@nft1.global",
+            "position": "Software Product Manager"
+          },
+          {
+            "name": "K",
+            "image": "https://d118iap96q19j9.nft1.global/ncommerce/assets/images/man2.jpg",
+            "email": "kanthawat@nft1.global",
+            "position": "Software Development"
+          }
+        ]
+      },
+      "partner": {
+        "title": "Partners",
+        "detail": "who are helping us pave the way towards a brand new digital economy"
+      },
+      "about-us": {
+        "title": "ข่าวเกี่ยวกับ N-Commerce",
+        "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dotempor incididunt ut labore"
+      }
+    },
+    "how-to": {
+      "menu": {
+        "list-link": "ศูนย์ช่วยเหลือ",
+        "tab-menu-1": "วิธีซื้อ",
+        "tab-menu-2": "What is N-Commerce",
+        "tab-menu-3": "รีดีมเกมกล่อง",
+        "tab-menu-4": "รีดีมเกมแบบดิจิตอล"
+      },
+      "footer": {
+        "title": "บทความนี้มีประโยชน์หรือไม่?",
+        "title-2": "มีปัญหาอื่นหรือ?",
+        "btn": "ส่งคำถาม",
+        "yes": "ใช่",
+        "no": "ไม่"
+      },
+      "buy": {
+        "how-to-buy": "วิธีซื้อ",
+        "title": "จะซื้อ NFT ใน N-Commerce ได้อย่างไร?",
+        "update-at": "13 days ago • Updated",
+        "detail-1": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus. Commodi rerum cumque non natus doloribus sed fugiat eos. Debitis vitae quia et amet aperiam dolores quia consequatur. Dolorum dolorem nostrum sequi sint molestiae maiores perferendis velit.",
+        "detail-2": "Minima deserunt tempore sed nam id ea necessitatibus. Et pariatur ut illum aliquam consequatur dolorem magni. Inventore consequatur ut dicta sint quaerat earum deleniti. Nobis saepe rerum et facilis autem voluptates magni itaque quo."
+      },
+      "quick-start": {
+        "title": "วิธีซื้อ",
+        "detail": "This section contains quick start guides to help you buy and redeem products from the N-Commerce website.",
+        "content-title": "BUYING TO REDEMPTION",
+        "step": "Step",
+        "step1": "1",
+        "step2": "2",
+        "step3": "3",
+        "step4": "4",
+        "content-detail-step1": "Preorder the product and receive an N-Commerce NFT 1:1 pegged for the product. Each NFT represents one chance to win a free gift.",
+        "content-detail-step2_1": "Sell the NFT on the OKX marketplace for secondary trade if desired.",
+        "content-detail-or": "Or",
+        "content-detail-step2_2": "Hold in the wallet and wait for the redemption date (in case of preorder model)",
+        "content-detail-step3": "At the redemption point, the NFT holder will enter a Lucky Draw to get a chance for winning a free gift.",
+        "content-detail-step4": "Redemption date: NFT holders can burn the N-Commerce NFT to redeem the actual product sent to their designated address. Redeemers will need to pay for VAT and Shipping Fees in OKT."
+      },
+      "redeem": {
+        "title": "วิธีรีดีม",
+        "title-physical": "รีดีมเกมกล่อง",
+        "title-digital": "รีดีมคีย์แบบดิจิตอล",
+        "title-2": "วิธีรีดีมเกมกล่อง",
+        "detail-1": "Minima deserunt tempore sed nam id ea necessitatibus. Et pariatur ut illum aliquam consequatur dolorem magni. Inventore consequatur ut dicta sint quaerat earum deleniti. Nobis saepe rerum et facilis autem voluptates magni itaque quo.",
+        "detail-2": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+        "detail-3": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+        "detail-4": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+        "detail-5": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus.",
+        "detail-6": "Minima deserunt tempore sed nam id ea necessitatibus. Et pariatur ut illum aliquam consequatur dolorem magni. Inventore consequatur ut dicta sint quaerat earum deleniti. Nobis saepe rerum et facilis autem voluptates magni itaque quo.",
+        "detail-7": "Non autem omnis. Eos et doloremque. Id aut doloremque qui quas voluptas quidem architecto consequatur delectus."
+      }
+    },
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "contents": [
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+        }
+      ]
+    },
+    "terms_of_service": {
+      "title": "Teams Of Service",
+      "effective_date": "Effective date: 20/10/2021",
+      "contents": [
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail": "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas.",
+          "detail": [
+            "Sit quasi nemo ut beatae rem qui dolorem amet optio. Ut nulla voluptatem distinctio est illo fugit omnis id quos. Aliquam quod sequi nam dolore tenetur. Molestias fuga quia ipsam.",
+            "Aut at natus consequatur. Voluptates sed temporibus alias voluptate accusantium. Omnis et assumenda sequi nisi sint. Unde at possimus aperiam unde excepturi inventore sed. Dicta consequatur asperiores sequi fuga consectetur minus. Rem quia repellendus vel asperiores."
+          ]
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+        },
+        {
+          "title_detail": "Aut accusamus et dolore labore dolor assumenda optio.",
+          "content_detail":  "Aut accusamus et dolore labore dolor assumenda optio. Earum voluptatibus quod voluptatem sit molestiae vitae dicta eveniet. Mollitia magnam amet nemo quia voluptas."
+        }
+      ]
+    },
+    "product-list": {
+      "limited-lbl": "All Limited edition",
+      "marketplace-lbl": "All NFT Marketplace",
+      "home-navigation-lbl": "Home",
+      "limited-navigation-lbl": "All Limited Edition",
+      "marketplace-navigation-lbl": "All NFT Marketplace",
+      "load-more": "Load More"
+    }
+  }

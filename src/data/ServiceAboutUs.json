@@ -1,0 +1,44 @@
+{
+    "news_cards": {
+        "section_1": [
+            {
+                "image": "personCard1.png",
+                "detail":  "NFT1 Market is the first multi-chain NFT fully curated marketplace in Thailand.",
+                "image_logo": "NFTs.png",
+                "text_logo": "NFT1"
+            },
+            {
+                "image": "personCard2.png",
+                "detail":   "NFT1 x Aek Thanathorn auctions has started! The auctions has officially started!",
+                "image_logo": "NFTs.png",
+                "text_logo": "NFT1"
+            },
+            {
+                "image": "personCard3.png",
+                "detail":     "Dragon Crypt' Collection coming to you live in 10 designs, only 90 MATIC/USDC.",
+                "image_logo": "NFTs.png",
+                "text_logo": "NFT1"
+            }
+        ],
+        "section_2": [
+            {
+                "image": "personCard1.png",
+                "detail":  "NFT1 Market is the first multi-chain NFT fully curated marketplace in Thailand.",
+                "image_logo": "NFTs.png",
+                "text_logo": "NFT1"
+            },
+            {
+                "image": "personCard2.png",
+                "detail":   "NFT1 x Aek Thanathorn auctions has started! The auctions has officially started!",
+                "image_logo": "NFTs.png",
+                "text_logo": "NFT1"
+            },
+            {
+                "image": "personCard3.png",
+                "detail":     "Dragon Crypt' Collection coming to you live in 10 designs, only 90 MATIC/USDC.",
+                "image_logo": "NFTs.png",
+                "text_logo": "NFT1"
+            }
+        ]
+    }
+}

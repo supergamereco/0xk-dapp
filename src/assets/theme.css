@@ -1,0 +1,25 @@
+body {
+    color: #ffffff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+
+a:link , a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+
+.btn-preorder {
+    background: linear-gradient(89.66deg, #962EFF 2.15%, #3106BB 99.71%);
+    border-radius: 6px;
+  }

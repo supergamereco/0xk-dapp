@@ -1,0 +1,148 @@
+{
+  "nft_marketplace" : [
+    {
+      "product_id": "1",
+      "product_price_id": "1",
+      "product_image": "keycap1.png",
+      "product_name": "Good in Blue",
+      "category_id": 2,
+      "category": "Keycaps",
+      "price": "0.0620",
+      "price_image": "OKT.svg",
+      "status": 1,
+      "created_at": 1651059667
+    },
+    {
+      "product_id": "2",
+      "product_price_id": "2",
+      "product_image": "mice1.png",
+      "product_name": "Feather",
+      "category_id": 3,
+      "category": "Mice",
+      "price": "0.0020",
+      "price_image": "OKT.svg",
+      "status": 2,
+      "created_at": 1672505999
+    },
+    {
+      "product_id": "3",
+      "product_price_id": "1",
+      "product_image": "keyboard1.png",
+      "product_name": "One 3 FIji",
+      "category_id": 1,
+      "category": "Keyboards",
+      "price": "0.0620",
+      "price_image": "OKT.svg",
+      "status": 1,
+      "created_at": 1672534800
+    },
+    {
+      "product_id": "4",
+      "product_price_id": "3",
+      "product_image": "peripheral1.png",
+      "product_name": "Ducky Premicord",
+      "category_id": 4,
+      "category": "Peripheral",
+      "price": "0.0015",
+      "price_image": "OKT.svg",
+      "status": 2,
+      "created_at": 1682902800
+    },
+    {
+      "product_id": "1",
+      "product_price_id": "1",
+      "product_image": "keycap1.png",
+      "product_name": "Good in Blue",
+      "category_id": 2,
+      "category": "Keycaps",
+      "price": "0.0620",
+      "price_image": "OKT.svg",
+      "status": 1,
+      "created_at": 1651059667
+    },
+    {
+      "product_id": "2",
+      "product_price_id": "2",
+      "product_image": "mice1.png",
+      "product_name": "Feather",
+      "category_id": 3,
+      "category": "Mice",
+      "price": "0.0020",
+      "price_image": "OKT.svg",
+      "status": 2,
+      "created_at": 1672505999
+    },
+    {
+      "product_id": "3",
+      "product_price_id": "1",
+      "product_image": "keyboard1.png",
+      "product_name": "One 3 FIji",
+      "category_id": 1,
+      "category": "Keyboards",
+      "price": "0.0620",
+      "price_image": "OKT.svg",
+      "status": 1,
+      "created_at": 1672534800
+    },
+    {
+      "product_id": "4",
+      "product_price_id": "3",
+      "product_image": "peripheral1.png",
+      "product_name": "Ducky Premicord",
+      "category_id": 4,
+      "category": "Peripheral",
+      "price": "0.0015",
+      "price_image": "OKT.svg",
+      "status": 2,
+      "created_at": 1682902800
+    },
+    {
+      "product_id": "1",
+      "product_price_id": "1",
+      "product_image": "keycap1.png",
+      "product_name": "Good in Blue",
+      "category_id": 2,
+      "category": "Keycaps",
+      "price": "0.0620",
+      "price_image": "OKT.svg",
+      "status": 1,
+      "created_at": 1651059667
+    },
+    {
+      "product_id": "2",
+      "product_price_id": "2",
+      "product_image": "mice1.png",
+      "product_name": "Feather",
+      "category_id": 3,
+      "category": "Mice",
+      "price": "0.0020",
+      "price_image": "OKT.svg",
+      "status": 2,
+      "created_at": 1672505999
+    },
+    {
+      "product_id": "3",
+      "product_price_id": "1",
+      "product_image": "keyboard1.png",
+      "product_name": "One 3 FIji",
+      "category_id": 1,
+      "category": "Keyboards",
+      "price": "0.0620",
+      "price_image": "OKT.svg",
+      "status": 1,
+      "created_at": 1672534800
+    },
+    {
+      "product_id": "4",
+      "product_price_id": "3",
+      "product_image": "peripheral1.png",
+      "product_name": "Ducky Premicord",
+      "category_id": 4,
+      "category": "Peripheral",
+      "price": "0.0015",
+      "price_image": "OKT.svg",
+      "status": 2,
+      "created_at": 1682902800
+    }
+  ]
+}
